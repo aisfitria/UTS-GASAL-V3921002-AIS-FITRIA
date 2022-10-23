@@ -50,8 +50,8 @@ def decryption(encrypt_text, key):
 # Pengenkripisian kembali oleh Vigenere Chiper
 print('------------Step 2 Affine Chiper------------')
 if __name__ == "__main__": 
-  string = "UWEEGUKUPQVHKPCNHKCNWTGKUPQVHCVCNKUKVVJGEQWTIGVQEQPVKPWGVJCVEQWPVU"
-  keyword = "JULIA"
+  string = "PRZZBPPFPKLQCFKXICXFIROBFPKLQCXQXIFQFPQEBZLROXDBQLZLKQFKRBQEXQZLRKQP"
+  keyword = "AISFITRIA"
   key = generateKey(string, keyword) 
   encrypt_text = encryption(string,key)
   print("Encrypted message:", encrypt_text) 
